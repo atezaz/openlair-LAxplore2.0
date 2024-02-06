@@ -1,0 +1,7 @@
+services:
+  openlair-streamlit-service:
+    container_name: openlair-streamlit
+    restart: always
+    build: ./streamlit
+    ports:
+      - "8501:8501"

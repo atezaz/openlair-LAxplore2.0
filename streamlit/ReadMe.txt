@@ -1,0 +1,11 @@
+- the program uses the following python libraries: streamlit, pandas, re, operator, json and rake_nltk
+- make sure you use a Python enviroment that has all of those installed or already included
+- alternatively the virtual enviroment from the folder venv inside the project (env (3.1.29, 64-bit)) can be used to run the code,
+  it has all the required libraries installed
+- make sure the json file you want to use for the events, metrics, indicators etc. is saved in the folder "LearningEventsJson" and called data.json
+- if you want to use a json file saved somewhere else and/or with a different name go into the file variables.py and change the file path in line 11
+- the programm wont work if the structure of the used json is changed from how it is done in the included file
+- pdf-files that should be analyzed by the program can be saved anywhere, the programm wont have issues if they are not in the pdf folder "testPdfs" inside the project
+- program is started by running the file main.py in a suitable Python enviroment
+- to open streamlit copy the command from the console "streamlit run project\main.py [ARGUMENTS]" into the PowerShell for the used Python enviroment
+- if it isn't opened automatically inside a browser copy the shown local URL from the PowerShell into a web browser
